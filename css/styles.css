@@ -230,6 +230,17 @@ padding: 120px 0;
 align-items: center;
 }
 
+.advantages-item{
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+}
+.cont-item{
+    text-align: center;
+        padding: 32px 0;
+}
+
+
+
 .advantages-title {
 font-weight: 700;
     font-size: 36px;
