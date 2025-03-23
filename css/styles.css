@@ -170,7 +170,7 @@ background-color: #404BBF;
     display: flex;
     align-items: center;
     gap: 24px;
-    margin: ;
+    
     
     
 }
@@ -195,7 +195,7 @@ background-color: #404BBF;
 
 .advantages {
 background-color: #F4F4FD;
-
+padding: 120px 0;
 }
  
 
@@ -216,7 +216,8 @@ font-weight: 700;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding: 120px 70px;
+    padding-bottom: 70px;
+    
 }
 
 
