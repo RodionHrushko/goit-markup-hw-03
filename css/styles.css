@@ -207,8 +207,7 @@ padding: 120px 0;
 align-items: center;
 }
 
-.advantages-title,
-.our-title {
+.advantages-title {
 font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -218,6 +217,19 @@ font-weight: 700;
     text-transform: capitalize;
     padding-bottom: 70px;
     
+}
+
+.our-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+        padding-bottom: 70px;
+        margin-bottom: 72px;
+
 }
 
 
@@ -237,6 +249,21 @@ font-weight: 500;
     color: #2e2f42;
 }
 
+.our-Portfolio{
+    display: flex;
+        justify-content: space-between;
+        padding: 120px 0 120px 0;
+}
+
+.our-list-first{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+    row-gap: 48px;
+    column-gap: 24px;
+    padding-bottom: 112px;
+}
+
 .advantages-item-text,
 .our-item-text,
 .portfolio-item-text {
@@ -249,9 +276,11 @@ font-weight: 400;
 }
 .footer {
 background: #2e2f42;
+padding: 100px 0;
 }
 
 .footer-logo {
+    display: inline-block;
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -259,6 +288,7 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
 }
 
 .logo-footer {
@@ -277,6 +307,9 @@ font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+        text-align: left;
+        padding-right: 0;
 }
 
 
